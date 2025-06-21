@@ -6,7 +6,7 @@
 
   <groupId>com.wct.formatters</groupId>
   <artifactId>formatters</artifactId>
-  <version>1.3.0</version>
+  <version>1.4.0</version>
 
   <name>formatters</name>
   <url>https://github.com/winterplexus/formatters-java</url>
@@ -29,7 +29,6 @@
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
-
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
@@ -38,8 +37,6 @@
               <target>21</target>
             </configuration>
         </plugin>
-
-
 <!--
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>

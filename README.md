@@ -1,26 +1,28 @@
 Formatters Library for Java
-===========================
+=================================
+Formatters library based on Java 21 platform and contains classes for formatting objects into specific string representations.
 
-Formatters library based on Java 21 platform and contains classes for formatting objects into use case strings.
+Library includes the following components:
 
-* BooleanFormats class:
+* BooleanFormats class
+* DateTimeFormats class
+* NumberFormats class
 
-```
-    public interface IBooleanFormats
-    {
-        public static String getLiteral(boolean condition);
-        public static char getLiteralLetter(boolean condition);
-    }
-```
-
-* DateTimeFormats class:
+## BooleanFormats Class
 
 ```
-    public class DateTimeFormats
-    {
-        public String format(String specification);
-        public String format(String specification, ZonedDateTime dt);
-    }
+public class BooleanFormats {
+    public static String getLiteral(boolean condition) ...
+    public static char getLiteralLetter(boolean condition) ...
+}
+```
+
+## DateTimeFormats Class
+
+```
+public class DateTimeFormats {
+    public String format(String specification, ZonedDateTime dt) ...
+}
 ```
 
 The date/time specifications are:
@@ -49,13 +51,10 @@ Specification | Description
 %Z | time zone name
 %% | a single %
 
-* NumberFormats class:
-
+# NumberFormats Class
 ```
-    public class NumberFormats
-    {
-        public static String getOrdinal(int n)
-        public static String getLiteralAmount(double amount);
-    }
+public class NumberFormats {
+    public static String getOrdinal(int n) ...
+    public static String getLiteralAmount(double amount) ...
+}
 ```
-
