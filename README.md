@@ -1,5 +1,5 @@
 Formatters Library for Java
-=================================
+===========================
 Formatters library based on Java 21 platform and contains classes for formatting objects into specific string representations.
 
 Library includes the following components:
@@ -58,3 +58,4 @@ public class NumberFormats {
     public static String getLiteralAmount(double amount) ...
 }
 ```
+

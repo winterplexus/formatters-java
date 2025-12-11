@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ccs.Formatters.NumberFormatsTest" time="0.02" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\factory\source\projects\tools\lib\java\formatters\formatters-java\target\test-classes;C:\factory\source\projects\tools\lib\java\formatters\formatters-java\target\classes;C:\Users\spanglee\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\spanglee\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-21.0.8.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\spanglee\AppData\Local\Temp\surefire4443427356643559419\surefirebooter-20251120214607028_3.jar C:\Users\spanglee\AppData\Local\Temp\surefire4443427356643559419 2025-11-20T21-46-06_878-jvmRun1 surefire-20251120214607028_1tmp surefire_0-20251120214607028_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\factory\source\projects\tools\lib\java\formatters\formatters-java\target\test-classes;C:\factory\source\projects\tools\lib\java\formatters\formatters-java\target\classes;C:\Users\spanglee\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\spanglee\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\spanglee"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-21.0.8.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\factory\source\projects\tools\lib\java\formatters\formatters-java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\spanglee\AppData\Local\Temp\surefire4443427356643559419\surefirebooter-20251120214607028_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="spanglee"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-11933218"/>
+    <property name="localRepository" value="C:\Users\spanglee\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\spanglee\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\factory\source\projects\tools\lib\java\formatters\formatters-java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-21.0.8.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64\bin;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x86;C:\Program Files (x86)\Windows Kits\10\bin\\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Program Files\Microsoft\jdk-21.0.8.9-hotspot\bin;C:\Program Files\Ruby\Ruby34-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Profile Explorer;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Users\spanglee\AppData\Local\Programs\Python\Launcher\;C:\Users\spanglee\.cargo\bin;C:\Users\spanglee\.dotnet\tools;C:\Users\spanglee\go\bin;C:\factory\tools\workstation\bin;C:\factory\tools\workstation\bin\cmake\bin;C:\factory\tools\workstation\opt;C:\factory\tools\scripts\command;C:\factory\tools\scripts\powershell;C:\factory\tools\scripts\powershell\functions;C:\factory\tools\sp;C:\factory\tools\packages\java\tools\ant\ant-1.10.15.0\bin;C:\factory\tools\packages\java\tools\maven\maven-3.9.11.0\bin;C:\factory\tools\packages\perl\perl-5.40.0.1\perl\bin;C:\factory\tools\packages\tools\scm\git\bin;C:\Users\spanglee\AppData\Local\GitHubDesktop\bin;C:\Users\spanglee\AppData\Local\Programs\Ollama;C:\Users\spanglee\AppData\Local\Programs\Python\Python313;C:\Users\spanglee\AppData\Local\Microsoft\WindowsApps;C:\Users\spanglee\.dotnet\tools;C:\Users\spanglee\go\bin;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\factory\tools\workstation\bin\cmake\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="test" classname="com.ccs.Formatters.NumberFormatsTest" time="0.02">
+    <system-out><![CDATA[
+class method NumberFormats.getOrdinal() test
+--------------------------------------------
+1st
+2nd
+3rd
+4th
+
+class method NumberFormats.getLiteralAmount() test
+--------------------------------------------------
+amount: 0
+Zero and 0/100
+amount: 1
+One and 0/100
+amount: 1.01
+One and 1/100
+amount: 12.02
+Twelve and 2/100
+amount: 123.03
+One Hundred Twenty-Three and 3/100
+amount: 1234.04
+One Thousand Two Hundred Thirty-Four and 4/100
+amount: 12345.05
+Twelve Thousand Three Hundred Forty-Five and 5/100
+amount: 123456.06
+One Hundred Twenty-Three Thousand Four Hundred Fifty-Six and 6/100
+amount: 1234567.07
+One Million Two Hundred Thirty-Four Thousand Five Hundred Sixty-Seven and 7/100
+amount: 12345678.08
+Twelve Million Three Hundred Forty-Five Thousand Six Hundred Seventy-Eight and 8/100
+amount: 123456789.09
+One Hundred Twenty-Three Million Four Hundred Fifty-Six Thousand Seven Hundred Eighty-Nine and 9/100
+amount: 1234567890.10
+One Billion Two Hundred Thirty-Four Million Five Hundred Sixty-Seven Thousand Eight Hundred Ninety and 10/100
+amount: 12345678901.11
+Twelve Billion Three Hundred Forty-Five Million Six Hundred Seventy-Eight Thousand Nine Hundred One and 11/100
+amount: 123456789012.491
+One Hundred Twenty-Three Billion Four Hundred Fifty-Six Million Seven Hundred Eighty-Nine Thousand Twelve and 49/100
+amount: 1234567890123.501
+One Trillion Two Hundred Thirty-Four Billion Five Hundred Sixty-Seven Million Eight Hundred Ninety Thousand One Hundred Twenty-Three and 50/100
+amount: 12345678901234.5123
+Twelve Trillion Three Hundred Forty-Five Billion Six Hundred Seventy-Eight Million Nine Hundred One Thousand Two Hundred Thirty-Four and 51/100
+amount:-1
+Minus One and 0/100
+amount:-1.01
+Minus One and 1/100
+amount:-12.02
+Minus Twelve and 2/100
+amount:-123.03
+Minus One Hundred Twenty-Three and 3/100
+amount:-1234.04
+Minus One Thousand Two Hundred Thirty-Four and 4/100
+amount:-12345.05
+Minus Twelve Thousand Three Hundred Forty-Five and 5/100
+amount:-123456.06
+Minus One Hundred Twenty-Three Thousand Four Hundred Fifty-Six and 6/100
+amount:-1234567.07
+Minus One Million Two Hundred Thirty-Four Thousand Five Hundred Sixty-Seven and 7/100
+amount:-12345678.08
+Minus Twelve Million Three Hundred Forty-Five Thousand Six Hundred Seventy-Eight and 8/100
+amount:-123456789.09
+Minus One Hundred Twenty-Three Million Four Hundred Fifty-Six Thousand Seven Hundred Eighty-Nine and 9/100
+amount:-1234567890.10
+Minus One Billion Two Hundred Thirty-Four Million Five Hundred Sixty-Seven Thousand Eight Hundred Ninety and 10/100
+amount:-12345678901.11
+Minus Twelve Billion Three Hundred Forty-Five Million Six Hundred Seventy-Eight Thousand Nine Hundred One and 11/100
+amount:-123456789012.491
+Minus One Hundred Twenty-Three Billion Four Hundred Fifty-Six Million Seven Hundred Eighty-Nine Thousand Twelve and 49/100
+amount:-1234567890123.501
+Minus One Trillion Two Hundred Thirty-Four Billion Five Hundred Sixty-Seven Million Eight Hundred Ninety Thousand One Hundred Twenty-Three and 50/100
+amount:-12345678901234.5123
+Minus Twelve Trillion Three Hundred Forty-Five Billion Six Hundred Seventy-Eight Million Nine Hundred One Thousand Two Hundred Thirty-Four and 51/100
+
+]]></system-out>
+  </testcase>
+</testsuite>

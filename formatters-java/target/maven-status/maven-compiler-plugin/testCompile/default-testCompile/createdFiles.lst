@@ -1,0 +1,5 @@
+com\ccs\Formatters\NumberFormatsTest.class
+com\ccs\Formatters\BooleanFormatsTest.class
+com\ccs\Formatters\StringParserTest.class
+com\ccs\Formatters\StringFormatsTest.class
+com\ccs\Formatters\DateTimeFormatsTest.class

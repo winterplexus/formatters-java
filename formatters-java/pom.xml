@@ -6,7 +6,7 @@
 
   <groupId>com.wct.formatters</groupId>
   <artifactId>formatters</artifactId>
-  <version>1.4.0</version>
+  <version>1.5.0</version>
 
   <name>formatters</name>
   <url>https://github.com/winterplexus/formatters-java</url>
@@ -37,36 +37,6 @@
               <target>21</target>
             </configuration>
         </plugin>
-<!--
-        <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.3.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.3.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.1.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.3.0</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>3.1.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>3.1.1</version>
-        </plugin>
--->
       </plugins>
     </pluginManagement>
   </build>
