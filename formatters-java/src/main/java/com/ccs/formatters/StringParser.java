@@ -1,9 +1,9 @@
 //
 //  StringParser.java
 //
-//  Wiregrass Code Technology 2006-2025
+//  Code Construct System 2006-2025
 //
-package com.wct.Formatters;
+package com.ccs.Formatters;
 
 import java.text.StringCharacterIterator;
 

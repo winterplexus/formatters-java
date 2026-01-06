@@ -51,7 +51,7 @@ Specification | Description
 %Z | time zone name
 %% | a single %
 
-# NumberFormats Class
+## NumberFormats Class
 ```
 public class NumberFormats {
     public static String getOrdinal(int n) ...
